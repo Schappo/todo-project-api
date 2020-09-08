@@ -17,3 +17,5 @@ mongoose.connect(DB_URI, options).then(() => {
   .catch((err) => {
     console.log(err)
   })
+
+export default DatabaseConfig;
